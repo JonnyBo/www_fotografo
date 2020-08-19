@@ -1,0 +1,39 @@
+﻿Per Transaction Report,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Reporting Period: ,2020-06-27 to 2020-06-27,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Native Retail Currency: ,RUB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Native Partner Currency: ,RUB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Country,Transaction Date,Name of Title,Season Title,Show Title,Channel Name,Video Category,YouTube Video ID,Play Asset ID,EIDR Title ID,EIDR Edit ID,Partner Reporting ID,Transaction Import Source,Transaction Type,Resolution,Refund/Chargeback,Coupon Used,Campaign ID,Purchase Location,Retail Price (USD),Native Retail Price (RUB),Tax Exclusive Retail Price (USD),Native Tax Exclusive Retail Price (RUB),Total Tax (USD),Native Total Tax,Partner Earnings Fraction,Contractual Minimum Partner Earnings (USD),Native Contractual Minimum Partner Earnings (RUB),Partner Earnings Using Tax Exclusive Retail Price (USD),Native Partner Earnings Using Tax Exclusive Retail Price (RUB),Partner Funded Discounts (USD),Native Partner Funded Discounts (RUB),Final Partner Earnings (USD),Native Final Partner Earnings (RUB),Conversion Rate
+RU,2020-06-27,Текст,,,,Movie,7SdigstCzcA,,NULL,NULL,,,EST,HD,False,False,,YouTube,4.73,329.00,3.94,274.17,0.79,54.83,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Спутник,,,,Movie,350MjyI0x2U,,NULL,NULL,,,EST,HD,False,False,,YouTube,5.30,369.00,4.42,307.50,0.88,61.50,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Текст,,,,Movie,7SdigstCzcA,,NULL,NULL,,,EST,HD,False,False,,YouTube,4.73,329.00,3.94,274.17,0.79,54.83,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Спутник,,,,Movie,350MjyI0x2U,,NULL,NULL,,,EST,HD,False,False,,YouTube,5.30,369.00,4.42,307.50,0.88,61.50,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Текст,,,,Movie,7SdigstCzcA,,NULL,NULL,,,EST,HD,False,False,,YouTube,4.73,329.00,3.94,274.17,0.79,54.83,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Спутник,,,,Movie,,FaPk79KYp9c.P,NULL,NULL,,,EST,HD,False,False,,Google Play,5.30,369.00,4.42,307.50,0.88,61.50,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Текст,,,,Movie,,BKbN_ok0LtA.P,NULL,NULL,,,EST,HD,False,False,,Google Play,4.73,329.00,3.94,274.17,0.79,54.83,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,В тылу врага,,,,Movie,,_H7lIA-KXtE.P,NULL,NULL,,,EST,HD,False,False,,Google Play,3.87,269.00,3.23,224.17,0.64,44.83,0.00,2.52,175.00,2.52,175.00,0.00,0.00,2.52,175.00,0.014362
+RU,2020-06-27,Спутник,,,,Movie,,FaPk79KYp9c.P,NULL,NULL,,,EST,HD,False,False,,Google Play,5.30,369.00,4.42,307.50,0.88,61.50,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Спутник,,,,Movie,,FaPk79KYp9c.P,NULL,NULL,,,EST,HD,False,False,,Google Play,5.30,369.00,4.42,307.50,0.88,61.50,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,В тылу врага,,,,Movie,,_H7lIA-KXtE.P,NULL,NULL,,,EST,HD,False,False,,Google Play,3.87,269.00,3.23,224.17,0.64,44.83,0.00,2.52,175.00,2.52,175.00,0.00,0.00,2.52,175.00,0.014362
+RU,2020-06-27,Спутник,,,,Movie,,FaPk79KYp9c.P,NULL,NULL,,,EST,HD,False,False,,Google Play,5.30,369.00,4.42,307.50,0.88,61.50,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Спутник,,,,Movie,,FaPk79KYp9c.P,NULL,NULL,,,EST,HD,False,False,,Google Play,5.30,369.00,4.42,307.50,0.88,61.50,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Предатель,,,,Movie,,60GLbN3h0Yk.P,NULL,NULL,,,EST,HD,False,False,,Google Play,5.30,369.00,4.42,307.50,0.88,61.50,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Спутник,,,,Movie,,FaPk79KYp9c.P,NULL,NULL,,,EST,HD,False,False,,Google Play,5.30,369.00,4.42,307.50,0.88,61.50,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Текст,,,,Movie,,BKbN_ok0LtA.P,NULL,NULL,,,EST,HD,False,False,,Google Play,4.73,329.00,3.94,274.17,0.79,54.83,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Шахматист,,,,Movie,,ZPyxtUwsS1g.P,NULL,NULL,,,EST,HD,False,False,,Google Play,5.30,369.00,4.42,307.50,0.88,61.50,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Текст,,,,Movie,7SdigstCzcA,,NULL,NULL,,,EST,HD,False,False,,YouTube,4.73,329.00,3.94,274.17,0.79,54.83,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Текст,,,,Movie,7SdigstCzcA,,NULL,NULL,,,EST,HD,False,False,,YouTube,4.73,329.00,3.94,274.17,0.79,54.83,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Война токов,,,,Movie,_vAt_QwjKfE,,NULL,NULL,,,EST,HD,False,False,,YouTube,3.87,269.00,3.23,224.17,0.64,44.83,0.00,2.52,175.00,2.52,175.00,0.00,0.00,2.52,175.00,0.014362
+RU,2020-06-27,Текст,,,,Movie,7SdigstCzcA,,NULL,NULL,,,EST,HD,False,False,,YouTube,4.73,329.00,3.94,274.17,0.79,54.83,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Текст,,,,Movie,7SdigstCzcA,,NULL,NULL,,,EST,HD,False,False,,YouTube,4.73,329.00,3.94,274.17,0.79,54.83,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Спутник,,,,Movie,350MjyI0x2U,,NULL,NULL,,,EST,HD,False,False,,YouTube,5.30,369.00,4.42,307.50,0.88,61.50,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Текст,,,,Movie,7SdigstCzcA,,NULL,NULL,,,EST,HD,False,False,,YouTube,4.73,329.00,3.94,274.17,0.79,54.83,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Текст,,,,Movie,7SdigstCzcA,,NULL,NULL,,,EST,HD,False,False,,YouTube,4.73,329.00,3.94,274.17,0.79,54.83,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Подарок с характером,,,,Movie,jonxVBnQMKU,,NULL,NULL,,,EST,HD,False,False,,YouTube,3.87,269.00,3.23,224.17,0.64,44.83,0.00,2.52,175.00,2.52,175.00,0.00,0.00,2.52,175.00,0.014362
+RU,2020-06-27,Текст,,,,Movie,7SdigstCzcA,,NULL,NULL,,,EST,HD,False,False,,YouTube,4.73,329.00,3.94,274.17,0.79,54.83,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Текст,,,,Movie,,BKbN_ok0LtA.P,NULL,NULL,,,EST,HD,False,False,,Google Play,4.73,329.00,3.94,274.17,0.79,54.83,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,В тылу врага,,,,Movie,,_H7lIA-KXtE.P,NULL,NULL,,,EST,HD,False,False,,Google Play,3.87,269.00,3.23,224.17,0.64,44.83,0.00,2.52,175.00,2.52,175.00,0.00,0.00,2.52,175.00,0.014362
+RU,2020-06-27,Спутник,,,,Movie,,FaPk79KYp9c.P,NULL,NULL,,,EST,HD,False,False,,Google Play,5.30,369.00,4.42,307.50,0.88,61.50,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Спутник,,,,Movie,,FaPk79KYp9c.P,NULL,NULL,,,EST,HD,False,False,,Google Play,5.30,369.00,4.42,307.50,0.88,61.50,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+RU,2020-06-27,Текст,,,,Movie,7SdigstCzcA,,NULL,NULL,,,EST,HD,False,False,,YouTube,4.73,329.00,3.94,274.17,0.79,54.83,0.00,3.60,250.00,3.60,250.00,0.00,0.00,3.60,250.00,0.014362
+EST Totals:,,,,,,,,,,,,,,,,,,,154.47,10748.00,128.74,8956.73,25.73,1791.27,,109.80,7625.00,109.80,7625.00,0.00,0.00,109.80,7625.00,
+Totals:,,,,,,,,,,,,,,,,,,,154.47,10748.00,128.74,8956.73,25.73,1791.27,,109.80,7625.00,109.80,7625.00,0.00,0.00,109.80,7625.00,

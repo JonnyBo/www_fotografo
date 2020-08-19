@@ -1,0 +1,939 @@
+@font-face {
+    font-family: 'Uni Sans';
+    src: /*url('../fonts/UniSansBold.eot'),
+    url('../fonts/UniSansBold.eot?#iefix') format('embedded-opentype'),*/ url('../fonts/UniSansBold.woff') format('woff'),
+    url('../fonts/UniSansBold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Uni Sans';
+    src: /*url('../fonts/UniSansSemiBold.eot'),
+    url('../fonts/UniSansSemiBold.eot?#iefix') format('embedded-opentype'),*/ url('../fonts/UniSansSemiBold.woff') format('woff'),
+    url('../fonts/UniSansSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uni Sans';
+    src: /*url('../fonts/UniSansRegular.eot'),
+    url('../fonts/UniSansRegular.eot?#iefix') format('embedded-opentype'),*/ url('../fonts/UniSansRegular.woff') format('woff'),
+    url('../fonts/UniSansRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body, html {
+    margin: 0;
+    min-height: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.app-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.dx-drawer {
+    flex: 1;
+    min-height: 0;
+}
+
+#content::after {
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-image: url(../img/background.svg);
+    background-size: cover;
+    background-position: center;
+    opacity: .1;
+}
+
+#content, .tabpanel-container, .tabpanel {
+    height: 100%;
+}
+
+#content #bottomPopupTabs + #tabpanel {
+    height: calc(100% - 34px);
+}
+
+#content #tabpanel {
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+
+/*------------------------------------------------------Editors-------------------------------------------------------*/
+.dx-texteditor.dx-editor-underlined:after {
+    border-bottom-width: 1px !important;
+}
+
+
+.dx-show-clear-button .dx-icon-clear {
+    opacity: .4;
+    background-color: unset;
+}
+
+.sp-dd {
+    top: 10px;
+}
+
+.dx-datebox-calendar .dx-dropdowneditor-icon:before, .dx-datebox-list .dx-dropdowneditor-icon:before, .dx-dropdowneditor-icon:before, .dx-textbox .dx-button .dx-icon:before {
+    opacity: .3;
+}
+
+.dx-dropdowneditor.dx-state-hover:not(.dx-custom-button-hovered) .dx-dropdowneditor-icon::before, .dx-dropdowneditor.dx-state-active .dx-dropdowneditor-icon::before, .dx-textbox .dx-button.dx-state-hover .dx-icon:before {
+    opacity: .6;
+}
+
+.myls-form-date, .myls-form-number, .myls-form-date .dx-field-item-content, .myls-form-number .dx-field-item-content {
+    max-width: 130px;
+    min-width: 130px !important;
+}
+
+.myls-form-datetime, .myls-form-datetime .dx-field-item-content {
+    max-width: 150px;
+    min-width: 150px !important;
+}
+
+.myls-form-time, .myls-form-time .dx-field-item-content {
+    max-width: 100px;
+    min-width: 100px !important;
+}
+
+.dx-datebox.dx-auto-width .dx-texteditor-input, .dx-datebox:not(.dx-texteditor-empty).dx-auto-width .dx-texteditor-input, .dx-texteditor.dx-invalid .dx-texteditor-input, .dx-texteditor.dx-valid .dx-texteditor-input {
+    padding-right: 0;
+}
+
+.dx-textarea {
+    font-size: 11px;
+}
+/*----------- lookup ------------*/
+.dx-list-group-header {
+    font-weight: 400;
+    padding: 5px 8px;
+    border-top: 1px solid transparent;
+    font-size: 15px;
+    border-bottom: 1px solid;
+    text-align: right;
+    font-family: 'Uni Sans';
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.dx-list-group:not(.dx-list-group-collapsed):not(:last-child) {
+    border-bottom: none;
+}
+
+.dx-scrollview-pull-down-indicator, .dx-scrollview-scrollbottom-indicator {
+    box-shadow: unset;
+    -webkit-box-shadow: unset;
+    background-color: transparent;
+}
+
+.dx-selectbox .dx-loadindicator-wrapper {
+    width: 16px;
+}
+
+.myls-form-file-container .dx-button.dx-button-has-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    border-color: transparent;
+    background-color: transparent !important;
+}
+
+/*------------------------------------------------------Main Toolbar--------------------------------------------------*/
+#toolbar .menu-button .dx-icon {
+    color: #F07A71;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+#toolbar .menu-button {
+    padding-right: 5px;
+}
+
+#toolbar {
+    padding: 0 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+    flex: 0 0 auto;
+    z-index: 1;
+}
+
+#toolbar .dx-toolbar-items-container {
+    height: 50px;
+}
+
+.dx-toolbar .dx-toolbar-label.mylsTitle {
+    color: #F07A71;
+    font-size: 19px !important;
+    font-family: 'Uni Sans';
+    font-weight: 600;
+}
+
+#toolbar .dx-button {
+    height: 34px;
+    min-width: 34px;
+}
+
+#toolbar .dx-button-has-icon .dx-icon {
+    height: 24px;
+    min-width: 24px;
+}
+
+.myls-allsearch-icon {
+    font: 14px/1 DXIcons;
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    width: 34px;
+    height: 34px;
+    background-position: 8px 8px;
+    background-size: 18px 18px;
+    padding: 8px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 18px;
+    font-size: 17px;
+    right: 0;
+    opacity: 0.6;
+}
+
+.dx-menu .dx-menu-item .dx-menu-item-content {
+    padding: 7px 8px 8px;
+}
+
+.dx-rtl.dx-toolbar .dx-toolbar-menu-container, .dx-toolbar .dx-toolbar-item {
+    padding: 0;
+}
+
+.dx-toolbar .dx-texteditor {
+    max-width: 150px;
+}
+
+
+/*-----------------------------------------------------------Main Menu------------------------------------------------*/
+.dx-drawer-panel-content {
+    font-weight: 400;
+    font-size: 13px;
+    font-family: Roboto, RobotoFallback, Helvetica, Arial, sans-serif;
+    line-height: 1.2857;
+}
+
+.panel-list .dx-list-group-header {
+    padding: 13px;
+    border-bottom: none;
+    border-top: none;
+    font-weight: 600;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-family: 'Uni Sans';
+    text-align: left;
+    font-size: 13px;
+    position: static;
+}
+
+#drawer .dx-drawer-panel-content a {
+    text-decoration: none;
+}
+
+.myls-menu-icon {
+    display: inline-block;
+    width: 24px;
+    margin-right: 5px;
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(2deg) brightness(115%) contrast(118%);
+}
+
+.panel-list .dx-list-group-body {
+    padding-left: 16px;
+}
+
+/*------------------------------------------------Tabs----------------------------------------------------------------*/
+.dx-tab .dx-icon.dx-icon-close {
+    margin-left: 12px;
+    top: 1px;
+    position: relative;
+    margin-right: 0;
+}
+
+.dx-tab-content {
+    display: flex;
+}
+
+.dx-tab, .lm_header .lm_tab {
+    min-width: 100px;
+    padding: 8px 15px;
+    width: auto !important;
+    text-transform: uppercase;
+}
+
+.dx-tab-text {
+    line-height: 20px;
+}
+
+#bottomPopupTabs {
+    height: 34px;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+}
+
+#bottomPopupTabs .dx-tabs-wrapper {
+    display: block;
+}
+
+/*-------------------------------------------------Toolbar------------------------------------------------------------*/
+.gridContainer .dx-toolbar .dx-toolbar-items-container {
+    height: 40px;
+}
+
+.dx-icon-export-excel-button, .dx-icon-column-chooser, .dx-icon-edit-button-save, .dx-icon-edit-button-cancel {
+    background-repeat: no-repeat;
+    background-size: 20px 20px !important;
+}
+
+.dx-icon-export-excel-button:before, .dx-icon-column-chooser:before, .dx-icon-edit-button-save:before,
+.dx-icon-edit-button-cancel:before {
+    content: '' !important;
+}
+
+.dx-icon-export-excel-button {
+    background-image: url("../img/excel.svg");
+}
+
+.dx-icon-column-chooser {
+    background-image: url("../img/columns.svg");
+}
+
+.dx-icon-edit-button-save {
+    background-image: url("../img/save.svg");
+}
+
+.dx-icon-edit-button-cancel {
+    background-image: url("../img/revert.svg");
+}
+
+
+/*------------------------------------------------GridContainer-------------------------------------------------------*/
+.gridContainer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    min-height: inherit;
+    max-height: inherit;
+    max-width: unset !important;
+    position: relative;
+    touch-action: manipulation;
+}
+
+/*------------------------------------------------Grid----------------------------------------------------------------*/
+.dx-datagrid .dx-column-lines > td.dx-command-select {
+    border-right: unset;
+}
+
+.dx-datagrid .dx-column-lines > td.dx-command-select + td {
+    border-left: unset;
+}
+
+.myls-colored-value {
+    padding: 2px 8px 4px;
+    border-radius: 14px;
+    display: inline-block;
+}
+
+.dx-datagrid-rowsview .dx-row-focused.dx-data-row > td:not(.dx-focused), .dx-datagrid-rowsview .dx-row-focused.dx-data-row > tr > td:not(.dx-focused), .dx-datagrid-rowsview .dx-row-focused.dx-data-row .dx-command-edit:not(.dx-focused) .dx-link {
+    color: unset;
+}
+
+.myls-master-detail-caption {
+    font-family: 'Uni Sans';
+    font-size: 17px;
+    margin-bottom: 9px;
+}
+
+.myls-master-detail-container {
+    padding: 16px 0px 16px 34px !important;
+}
+
+.dx-datagrid-nodata {
+    font-size: 13px;
+}
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.gridContainer .dx-toolbar .dx-button-has-icon .dx-button-content {
+    padding: 4px;
+}
+
+.gridContainer .dx-button-has-icon .dx-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.dx-datagrid-header-panel .dx-toolbar {
+    margin-bottom: 0;
+}
+
+.gridContainer .dx-command-select {
+    width: 34px !important;
+    min-width: 34px !important;
+}
+
+.dx-datagrid-total-footer > .dx-datagrid-content {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.dx-list.dx-list-with-search .dx-scrollable-wrapper,
+.gridContainer .dx-gridbase-container {
+    min-height: 0;
+}
+
+.gridContainer .myls-bottom-toolbar {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+}
+
+.gridContainer .myls-bottom-toolbar .dx-toolbar-items-container {
+    height: 34px;
+}
+
+.gridContainer .myls-bottom-toolbar .dx-toolbar-before {
+    left: 16px;
+}
+
+.myls-bottom-toolbar .dx-toolbar-item {
+    padding-right: 5px;
+}
+
+/*-------------------------------------------------------------formatted columns--------------------------------------*/
+[role="field-set"] {
+    display: block;
+}
+
+[data-dir="h"] > [role="field-set"] {
+    display: inline-block;
+}
+
+[data-dir="v"] > * {
+    display: block;
+}
+
+.myls-open-object_text + i {
+    visibility: hidden;
+}
+
+td:hover i.myls-open-object, .myls-open-object-container:hover i.myls-open-object {
+    visibility: visible;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------------Cards-------------------------------------------------*/
+.gridContainer.dx-list .dx-list-search {
+    position: absolute;
+    right: 16px;
+    top: 7px;
+}
+
+.gridContainer.dx-list .dx-fileuploader ~ .dx-list-search {
+    top: 49px;
+}
+
+.dx-list .card-view .dx-list-item-content {
+    white-space: normal;
+    padding: 10px 0;
+}
+
+.dx-list .card-view .dx-list-item {
+    border-top: none;
+    min-width: 250px;
+}
+
+.card-body {
+    padding-top: 16px;
+    padding-bottom: 12px;
+}
+
+.card {
+    height: 100%;
+}
+
+.dx-list .dx-scrollview-scrollbottom {
+    display: none !important;
+}
+
+/*---------------------------------------------------------Forms------------------------------------------------------*/
+.myls-form-container {
+    height: 100%;
+}
+
+.dx-popup-bottom .dx-button {
+    min-width: unset;
+}
+
+/*.dx-popup-title.dx-toolbar {
+    background-color: rgba(166, 232, 185, 0.3803921568627451);
+}*/
+
+.dx-popup-title.dx-toolbar .dx-toolbar-label {
+    border-bottom: none;
+    font-family: 'Uni Sans';
+    font-size: 17px;
+    height: 34px;
+    padding: 6px 20px;
+}
+
+.dx-popup-title.dx-toolbar .dx-toolbar-items-container {
+    height: 34px;
+}
+
+.myls-form .dx-popup-content {
+    padding: 0;
+}
+
+.myls-form-container .dx-form,
+.myls-form-container .dx-form .dx-layout-manager,
+.myls-form-container .dx-form .dx-layout-manager > .dx-responsivebox {
+    height: 100%;
+}
+
+.myls-form .dx-form {
+    padding: 16px 12px 16px 20px;
+}
+.myls-item-full-form-space {
+    margin: -16px -20px -16px -20px;
+}
+
+.dx-popup-bottom.dx-toolbar {
+    padding: 0px 20px;
+    background-color: transparent;
+    height: 40px;
+}
+
+.dx-popup-bottom.dx-toolbar .dx-toolbar-items-container {
+    height: 40px;
+}
+
+.myls-info-btn {
+    border-radius: 50%;
+}
+
+.myls-info-btn .dx-button-content {
+    white-space: normal;
+    text-align: left;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: "Uni Sans";
+    font-weight: 700;
+}
+
+.dx-placeholder {
+    /* color: #c4c4c4;*/
+    font-size: 11px;
+}
+
+.dx-field-item-content .dx-texteditor-input {
+    padding-bottom: 0;
+    padding-top: 4px;
+    min-height: 28px;
+}
+
+.dx-field-item-required-mark {
+    display: none;
+}
+
+.dx-field-item-label-text {
+    font-size: 11px;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.dx-field-item-label-location-top {
+    margin-bottom: 0;
+}
+
+.dx-popup-wrapper > .dx-overlay-content {
+    max-width: 100%;
+    min-width: 230px;
+}
+
+.dx-numberbox input {
+    text-align: right;
+}
+
+
+.dx-layout-manager .dx-field-item:not(.dx-last-col) {
+    padding-right: 0px;
+}
+
+.myls-form-container :not(.dx-item-content) > .dx-item.dx-box-item {
+    flex-grow: 0 !important;
+}
+
+.myls-form-container .dx-item-content > .dx-item.dx-box-item.h-100 {
+    flex-grow: 1 !important;
+}
+
+.myls-form-container .dx-scrollview-content, .myls-form-container .dx-widget:not(.dx-context-menu):not(.dx-loadpanel):not(.dx-loadindicator):not(.dx-radiogroup):not(.dx-collection), .myls-form-container .dx-scrollable-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+.ck-editor__editable {
+    min-height: 160px;
+    height: 100%;
+}
+
+.ck.ck-reset.ck-editor {
+    height: 100%;
+}
+
+.ck-editor__main {
+    height: calc(100% - 40px);
+}
+
+.myls-all-space-height, .myls-all-space-height .dx-field-item {
+    flex-grow: 1;
+}
+
+.myls-all-space-height .dx-field-item-content, .myls-all-space-height .dx-form-group {
+    height: 100%;
+    min-height: 200px;
+}
+
+.myls-all-space-height .dx-form-group-content {
+    height: calc(100% - 20px);
+}
+
+.myls-form-container :not(.dx-item-content) > .dx-item.dx-box-item.myls-flex-grow-1 {
+    flex-grow: 1 !important;
+}
+
+.myls-all-space-height .ck.ck-reset.ck-editor, .myls-all-space-height .gridContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.myls-all-space-height .gridContainer {
+    min-height: 200px;
+}
+
+.dx-field-item-content {
+    position: relative;
+}
+
+.myls-empty-image {
+    opacity: .1;
+}
+
+.dx-valid.dx-texteditor.dx-editor-filled .dx-texteditor-input-container:after, .dx-valid.dx-texteditor.dx-editor-outlined .dx-texteditor-input-container:after, .dx-valid.dx-texteditor.dx-editor-underlined .dx-texteditor-input-container:after {
+    display: none;
+}
+
+/**----------------------------------------------------------------------- Scheduler -----------------------------------*/
+.dx-scheduler .dx-loadpanel-content {
+    display: none;
+}
+
+.dx-scheduler-header {
+    height: 34px;
+}
+
+.dx-scheduler-navigator {
+    padding: 4px;
+}
+
+.dx-scheduler-view-switcher .dx-item {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+/*------------------------------------------------------------------------ DragList -------------------------------------*/
+.draglist > .card-body {
+    flex: 0 1 auto;
+}
+
+.draglist > .draglist-list {
+    flex: 1 1 0;
+}
+
+.sortable-cards {
+    min-height: 150px;
+    width: 100%;
+    margin: 0 0 8px 8px;
+}
+
+.sortable-cards .dx-card, .dx-sortable-dragging .dx-card {
+    padding: 5px 8px;
+}
+
+.sortable-cards .myls-card-checkbox {
+    margin-right: 8px;
+    margin-top: 4px;
+}
+
+.dx-list.dx-list-with-search .card .dx-scrollable-wrapper {
+    height: 100%;
+    max-height: 300px;
+}
+
+/*-------------------------------------------------------------------Dashboard--------------------------------------------*/
+
+
+.myls-frame-title {
+    padding: 5px 10px 7px;
+    font-family: 'Uni Sans';
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+}
+
+.myls-frame-title .dx-icon-close {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.myls-frame-body {
+    padding: 0 20px 20px;
+    height: calc(100% - 31px);
+}
+
+.myls-frame-body > .myls-dashboard-card {
+    padding-top: 20px;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 10px;
+    grid-auto-rows: 150px;
+    grid-auto-flow: dense;
+    padding: 10px;
+}
+
+.col-span-1 {
+    grid-column-end: span 1;
+}
+
+.col-span-2 {
+    grid-column-end: span 2;
+}
+
+.col-span-3 {
+    grid-column-end: span 3;
+}
+
+.col-span-4 {
+    grid-column-end: span 4;
+}
+
+.col-span-5 {
+    grid-column-end: span 5;
+}
+
+.col-all-space {
+    grid-column: 1/-1;
+}
+
+@media (max-width: 1024px) {
+    .col-span-5 {
+        grid-column: 1/-1;
+    }
+}
+
+@media (max-width: 720px) {
+    .col-span-4 {
+        grid-column: 1/-1;
+    }
+}
+
+@media (max-width: 600px) {
+    .col-span-3 {
+        grid-column: 1/-1;
+    }
+}
+
+.row-span-1 {
+    grid-row-end: span 1;
+}
+
+.row-span-2 {
+    grid-row-end: span 2;
+}
+
+.row-span-3 {
+    grid-row-end: span 3;
+}
+
+.row-span-4 {
+    grid-row-end: span 4;
+}
+
+.row-span-5 {
+    grid-row-end: span 5;
+}
+
+/*----------------------------------------------charts-------------------------------------------------------------------*/
+.myls-chart-container {
+    overflow-y: hidden;
+}
+
+/*----------------------------------------------layout----------------------------------------------------------------------*/
+.lm_header {
+    height: 32px !important;
+}
+
+.lm_header .lm_tab {
+    border: none;
+    height: 31px !important;
+    font-family: Roboto, RobotoFallback, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.lm_header .lm_tab.lm_active {
+    height: 32px !important;
+}
+
+.lm_header .lm_tab .lm_close_tab {
+    display: none;
+}
+
+.lm_header [class^=lm_] {
+    box-sizing: border-box !important;
+}
+
+.lm_controls {
+    display: none !important;
+}
+
+/*------------------------------------------ Вход в систему --------------------------------------------*/
+
+.mylsIcon {
+    width: 32px;
+    height: 32px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    float: left;
+    margin-right: 10px;
+    font-family: 'Uni Sans';
+}
+
+.mylsIconImage img {
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+body.myls-login {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: url('../img/background.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+body.myls-login .myls-logo {
+    position: absolute;
+    bottom: 10px;
+    width: 50px;
+    height: 30px;
+}
+
+.mylsTitle {
+    font-size: 30px;
+    color: #7ab1cc;
+    font-weight: 600;
+    line-height: 32px;
+    font-family: 'Uni Sans';
+    max-width: unset !important;
+}
+
+.mylsTitle img {
+    height: 40px;
+}
+
+.mylsLoginTitle {
+    margin-bottom: 24px;
+}
+
+.myls-login-form {
+    width: 364px;
+    background-color: white;
+    padding: 32px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.myls-login-cover {
+    width: 364px;
+}

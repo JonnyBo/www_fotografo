@@ -1,7 +1,9 @@
 <?php
 $db_charset = 'utf8';
-$db_dsn = 'firebird:dbname=i:\NewServer\data\DB_FB\MYLS_JEISS_TABLER.FDB;charset='.$db_charset;
-$datadb_dsn = 'firebird:dbname=i:\NewServer\data\DB_FB\MYLS_JEISS.FDB;charset='.$db_charset;
+//$db_dsn = 'firebird:dbname=i:\NewServer\data\DB_FB\MYLS_JEISS_TABLER.FDB;charset='.$db_charset;
+//$datadb_dsn = 'firebird:dbname=i:\NewServer\data\DB_FB\MYLS_JEISS.FDB;charset='.$db_charset;
+$db_dsn = 'firebird:dbname=d:\dbs\MYLS_JEISS_TABLER.FDB;charset='.$db_charset;
+$datadb_dsn = 'firebird:dbname=d:\dbs\MYLS_JEISS.FDB;charset='.$db_charset;
 $db_user = 'SYSDBA';
 $db_password = 'masterkey';
 

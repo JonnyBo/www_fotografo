@@ -1,0 +1,17 @@
+﻿Per Transaction Report,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Reporting Period: ,2020-08-03 to 2020-08-03,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Native Retail Currency: ,RUB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Native Partner Currency: ,RUB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Country,Transaction Date,Name of Title,Season Title,Show Title,Channel Name,Video Category,YouTube Video ID,Play Asset ID,EIDR Title ID,EIDR Edit ID,Partner Reporting ID,Transaction Import Source,Transaction Type,Resolution,Refund/Chargeback,Coupon Used,Campaign ID,Purchase Location,Retail Price (USD),Native Retail Price (RUB),Tax Exclusive Retail Price (USD),Native Tax Exclusive Retail Price (RUB),Total Tax (USD),Native Total Tax,Partner Earnings Fraction,Contractual Minimum Partner Earnings (USD),Native Contractual Minimum Partner Earnings (RUB),Partner Earnings Using Tax Exclusive Retail Price (USD),Native Partner Earnings Using Tax Exclusive Retail Price (RUB),Partner Funded Discounts (USD),Native Partner Funded Discounts (RUB),Final Partner Earnings (USD),Native Final Partner Earnings (RUB),Conversion Rate
+RU,2020-08-03,"Отель ""Белград""",,,,Movie,,vvKfCzF7BVY.P,NULL,NULL,,,EST,HD,False,False,,Google Play,5.02,369.00,4.18,307.50,0.84,61.50,0.00,3.40,250.00,3.40,250.00,0.00,0.00,3.40,250.00,0.013600
+RU,2020-08-03,Спутник,,,,Movie,,FaPk79KYp9c.P,NULL,NULL,,,EST,HD,False,False,,Google Play,5.02,369.00,4.18,307.50,0.84,61.50,0.00,3.40,250.00,3.40,250.00,0.00,0.00,3.40,250.00,0.013600
+RU,2020-08-03,Спутник,,,,Movie,,FaPk79KYp9c.P,NULL,NULL,,,EST,HD,False,False,,Google Play,5.02,369.00,4.18,307.50,0.84,61.50,0.00,3.40,250.00,3.40,250.00,0.00,0.00,3.40,250.00,0.013600
+RU,2020-08-03,"Отель ""Белград""",,,,Movie,,vvKfCzF7BVY.P,NULL,NULL,,,EST,HD,False,False,,Google Play,5.02,369.00,4.18,307.50,0.84,61.50,0.00,3.40,250.00,3.40,250.00,0.00,0.00,3.40,250.00,0.013600
+RU,2020-08-03,"Отель ""Белград""",,,,Movie,,vvKfCzF7BVY.P,NULL,NULL,,,EST,HD,False,False,,Google Play,5.02,369.00,4.18,307.50,0.84,61.50,0.00,3.40,250.00,3.40,250.00,0.00,0.00,3.40,250.00,0.013600
+RU,2020-08-03,Текст,,,,Movie,,BKbN_ok0LtA.P,NULL,NULL,,,EST,HD,False,False,,Google Play,4.48,329.00,3.73,274.17,0.75,54.83,0.00,3.40,250.00,3.40,250.00,0.00,0.00,3.40,250.00,0.013600
+RU,2020-08-03,Война токов,,,,Movie,,Nm_XajeRDn4.P,NULL,NULL,,,EST,HD,False,False,,Google Play,3.66,269.00,3.05,224.17,0.61,44.83,0.00,2.38,175.00,2.38,175.00,0.00,0.00,2.38,175.00,0.013600
+RU,2020-08-03,Война токов,,,,Movie,,Nm_XajeRDn4.P,NULL,NULL,,,EST,HD,False,False,,Google Play,3.66,269.00,3.05,224.17,0.61,44.83,0.00,2.38,175.00,2.38,175.00,0.00,0.00,2.38,175.00,0.013600
+RU,2020-08-03,Текст,,,,Movie,7SdigstCzcA,,NULL,NULL,,,EST,HD,False,False,,YouTube,4.48,329.00,3.73,274.17,0.75,54.83,0.00,3.40,250.00,3.40,250.00,0.00,0.00,3.40,250.00,0.013600
+RU,2020-08-03,"Отель ""Белград""",,,,Movie,AcNQN9b9_2Y,,NULL,NULL,,,EST,HD,False,False,,YouTube,5.02,369.00,4.18,307.50,0.84,61.50,0.00,3.40,250.00,3.40,250.00,0.00,0.00,3.40,250.00,0.013600
+EST Totals:,,,,,,,,,,,,,,,,,,,46.40,3410.00,38.67,2841.68,7.73,568.32,,31.96,2350.00,31.96,2350.00,0.00,0.00,31.96,2350.00,
+Totals:,,,,,,,,,,,,,,,,,,,46.40,3410.00,38.67,2841.68,7.73,568.32,,31.96,2350.00,31.96,2350.00,0.00,0.00,31.96,2350.00,

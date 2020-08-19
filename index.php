@@ -42,14 +42,14 @@ if ($result = $sth->fetch(\PDO::FETCH_ASSOC)) {
         <div class="left-part position-relative <?= $result['arte_bg_class'] ?>"
              style="background-image: url(files/<?= $result['arte_fileurl'] ?>)">
             <h1 class="title position-absolute <?= $result['arte_text_class'] ?>">Jeisson Pulido</h1>
-            <a class="btn position-absolute <?= $result['arte_btn_class'] ?>" href="gallery/?p=1" role="button">
+            <a class="btn position-absolute <?= $result['arte_btn_class'] ?>" href="galleries.php?p=1" role="button">
                 <?= $result['arte_title'] ?>
             </a>
         </div>
         <div class="right-part <?= $result['trabajo_bg_class'] ?> position-relative"
              style="background-image: url(files/<?= $result['trabajo_fileurl'] ?>)">
             <h1 class="title position-absolute <?= $result['trabajo_text_class'] ?>">Fotografo</h1>
-            <a class="btn position-absolute <?= $result['arte_btn_class'] ?>" href="gallery/?p=2" role="button">
+            <a class="btn position-absolute <?= $result['arte_btn_class'] ?>" href="galleries.php?p=2" role="button">
                 <?= $result['trabajo_title'] ?>
             </a>
         </div>

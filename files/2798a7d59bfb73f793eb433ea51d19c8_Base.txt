@@ -1,0 +1,8 @@
+SYSDBA
+Q12354r
+
+ybvlf14njh
+
+host: 	138.201.19.133:53389
+login:	kate
+pass:	ZX45Tr21
