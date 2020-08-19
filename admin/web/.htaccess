@@ -1,0 +1,34 @@
+Options All -Indexes
+#Options +FollowSymLinks
+IndexIgnore */*
+
+#SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+#SetEnvIf Authorization .+ HTTP_AUTHORIZATION=$0
+
+#php_value session.gc_maxlifetime 60
+#php_value session.cookie_lifetime 60
+
+
+RewriteEngine on
+
+RewriteBase /
+
+## Для работы в качестве админки
+RewriteRule ^site(.*)$ /admin/site$1 [QSA,L,R=301,NC]
+RewriteRule ^frame(.*)$ /admin/frame$1 [QSA,L,R=301,NC]
+RewriteRule ^menu(.*)$ /admin/menu$1 [QSA,L,R=301,NC]
+RewriteRule ^form(.*)$ /admin/form$1 [QSA,L,R=301,NC]
+#RewriteRule ^auth(.*)$ /admin/auth$1 [QSA,L,R=301,NC]
+
+## !!!Для работы в качестве админки надо убрать
+#RewriteRule /admin/ /admin/index [R=301,L]
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php
+## Для работы в качестве админки
+#RewriteCond %{REQUEST_URI} !^/admin
+
+# otherwise forward it to index.php
+#RewriteRule . index.php

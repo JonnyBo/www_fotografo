@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+</head>
+
+<body id="gallery" class='bg-light'>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean bg-light shadow">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"></a>
+            <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse pt-3 pt-md-0" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="galleries.html">Arte personal</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="galleries.html">Galerias</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="info.html">Info</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header position-relative" style="background-image: url(img/jeisson_pulido_moda_barcelona_11.jpg)">
+        <div class="container position-relative h-100">
+            <div class="row position-absolute title-row">
+                <h1 class="title w-100 text-center mx-3">Moda</h1>
+                <h4 class="title w-100 text-center mx-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet natus repellendus voluptates molestias. Atque velit aliquid numquam tenetur, voluptate officiis libero tempora, veritatis quo optio natus ab eius aperiam iusto!</h4>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-light mt-4">
+                    <li class="breadcrumb-item"><a href="galleries.html">Arte comercial</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Moda</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <section class="video mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col videoContainer">
+                    <iframe class="video" src="https://www.youtube.com/embed/pRpeEdMmmQ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-4  mb-lg-4 mb-3">
+                    <a class="fancybox" data-fancybox="group" href="img/jeisson_pulido_moda_barcelona_022.jpg">
+                        <div class="photo position-relative" style="background-image: url(img/jeisson_pulido_moda_barcelona_022.jpg)">
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-12 col-md-6 col-xl-4  mb-lg-4 mb-3">
+                    <a class="fancybox" data-fancybox="group" href="img/jeisson_pulido_moda_barcelona_11.jpg">
+                        <div class="photo position-relative" style="background-image: url(img/jeisson_pulido_moda_barcelona_11.jpg)">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4  mb-lg-4 mb-3">
+                    <a class="fancybox" data-fancybox="group" href="img/jeisson_pulido_retrato_barcelona_13.jpg">
+                        <div class="photo position-relative" style="background-image: url(img/jeisson_pulido_retrato_barcelona_13.jpg)">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4  mb-lg-4 mb-3">
+                    <a class="fancybox" data-fancybox="group" href="img/jeisson_pulido_moda_barcelona_022.jpg">
+                        <div class="photo position-relative" style="background-image: url(img/jeisson_pulido_moda_barcelona_022.jpg)">
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-12 col-md-6 col-xl-4  mb-lg-4 mb-3">
+                    <a class="fancybox" data-fancybox="group" href="img/jeisson_pulido_moda_barcelona_11.jpg">
+                        <div class="photo position-relative" style="background-image: url(img/jeisson_pulido_moda_barcelona_11.jpg)">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4  mb-lg-4 mb-3">
+                    <a class="fancybox" data-fancybox="group" href="img/jeisson_pulido_retrato_barcelona_13.jpg">
+                        <div class="photo position-relative" style="background-image: url(img/jeisson_pulido_retrato_barcelona_13.jpg)">
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="py-2 text-center">© Jeisson Pulido, 2020</footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".fancybox").fancybox({
+                loop: true
+            });
+        });
+
+    </script>
+</body>
+
+</html>

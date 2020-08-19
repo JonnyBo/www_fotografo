@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1251" ?> 
+<objects>
+	<object name="Простановка юрлиц">
+		<insql>
+			select url_id as id from urls where status_id = 4
+		</insql>
+		<outsqls>
+			<outsql>
+			update urls set status_id = 5 where url_id = :id
+			</outsql>
+		</outsqls>
+	</object>
+	<!--<object name="Простановка частей">
+		<insql>
+			select 
+				film_id as id
+			from films
+		</insql>
+		<outsqls>
+			<outsql>
+			execute procedure set_license_parts(null,:id)	
+			</outsql>
+		</outsqls>
+	</object>	
+	<object name="Расчет лицензий">
+		<insql>
+			select 
+			    license_id as id
+			from licenses
+			where contract_type_id = 3
+		</insql>
+		<outsqls>
+			<outsql>
+			execute procedure calc_boxoffice(:id)	
+			</outsql>
+		</outsqls>
+	</object>-->
+</objects>

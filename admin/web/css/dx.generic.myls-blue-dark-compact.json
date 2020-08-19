@@ -1,0 +1,189 @@
+{
+    "items": [
+        {
+            "key": "@base-success",
+            "value": "rgba(166, 232, 185, 1)"
+        },
+        {
+            "key": "@base-warning",
+            "value": "rgba(233, 202, 107, 1)"
+        },
+        {
+            "key": "@base-border-radius",
+            "value": "4px"
+        },
+        {
+            "key": "@base-link-color",
+            "value": "rgba(122, 177, 204, 1)"
+        },
+        {
+            "key": "@base-icon-color",
+            "value": "rgba(51, 51, 51, 1)"
+        },
+        {
+            "key": "@datagrid-cell-modified-border-color",
+            "value": "rgba(166, 232, 185, 0.8)"
+        },
+        {
+            "key": "@datagrid-row-invalid-faded-border-color",
+            "value": "rgba(217, 83, 79, 0.8)"
+        },
+        {
+            "key": "@datagrid-row-selected-border-color",
+            "value": "rgba(122, 184, 235, 0.35)"
+        },
+        {
+            "key": "@SCHEDULER_FIRST_MONTH_BORDER_COLOR",
+            "value": "rgba(177, 184, 188, 1)"
+        },
+        {
+            "key": "@dropdowneditor-icon-active-color",
+            "value": "rgba(122, 177, 204, 1)"
+        },
+        {
+            "key": "@numberbox-spin-icon-color",
+            "value": "rgba(122, 177, 204, 0.4)"
+        },
+        {
+            "key": "@textbox-search-icon-color",
+            "value": "rgba(122, 177, 204, 0.4)"
+        },
+        {
+            "key": "@tagbox-tag-bg",
+            "value": "rgba(166, 232, 185, 0.5)"
+        },
+        {
+            "key": "@form-group-border-color",
+            "value": "rgba(179, 179, 179, 1)"
+        },
+        {
+            "key": "@filterbuilder-item-value-color",
+            "value": "rgba(232, 234, 235, 0.19)"
+        },
+        {
+            "key": "@popup-title-bg",
+            "value": "rgba(167, 232, 178, 0.36)"
+        },
+        {
+            "key": "@base-border-radius-large",
+            "value": "0"
+        },
+        {
+            "key": "@drawer-shader-background-color",
+            "value": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "key": "@scrollable-scroll-bg",
+            "value": "rgba(122, 177, 204, 1)"
+        },
+        {
+            "key": "@tagbox-tag-button-remove-bg",
+            "value": "rgba(26, 26, 26, 0.2)"
+        },
+        {
+            "key": "@base-font-family",
+            "value": "Roboto, RobotoFallback, Helvetica, Arial, sans-serif"
+        },
+        {
+            "key": "@datagrid-columnchooser-font-weight",
+            "value": "normal"
+        },
+        {
+            "key": "@datagrid-row-focused-bg",
+            "value": "rgba(122, 184, 235, 0.45)"
+        },
+        {
+            "key": "@tabs-tab-selected-color",
+            "value": "rgba(51, 51, 51, 1)"
+        },
+        {
+            "key": "@tabs-tab-color",
+            "value": "rgba(153, 153, 153, 1)"
+        },
+        {
+            "key": "@dropdowneditor-icon-color",
+            "value": "rgba(153, 161, 168, 1)"
+        },
+        {
+            "key": "@button-normal-border-color",
+            "value": "rgba(0, 0, 0, 0)"
+        },
+        {
+            "key": "@list-item-selected-bg",
+            "value": "rgba(122, 177, 204, 1)"
+        },
+        {
+            "key": "@base-border-color",
+            "value": "rgba(232, 234, 235, 0.23)"
+        },
+        {
+            "key": "@base-danger",
+            "value": "rgba(217, 83, 79, 0.8)"
+        },
+        {
+            "key": "@base-accent",
+            "value": "rgba(122, 177, 204, 1)"
+        },
+        {
+            "key": "@datagrid-columnchooser-item-color",
+            "value": "rgba(139, 205, 252, 0.73)"
+        },
+        {
+            "key": "@datagrid-selection-bg",
+            "value": "rgba(122, 184, 235, 0.38)"
+        },
+        {
+            "key": "@datagrid-row-selected-color",
+            "value": "rgba(255, 255, 255, 1)"
+        },
+        {
+            "key": "@datagrid-focused-border-color",
+            "value": "rgba(106, 150, 172, 1)"
+        },
+        {
+            "key": "@datagrid-row-alternation-bg",
+            "value": "rgba(250, 250, 250, 0.07)"
+        },
+        {
+            "key": "@datagrid-group-row-bg",
+            "value": "rgba(241, 241, 241, 0.21)"
+        },
+        {
+            "key": "@datagrid-group-row-color",
+            "value": "rgba(161, 161, 161, 1)"
+        },
+        {
+            "key": "@datagrid-summary-color",
+            "value": "rgba(250, 247, 247, 1)"
+        },
+        {
+            "key": "@datagrid-menu-icon-color",
+            "value": "rgba(250, 250, 250, 0.19)"
+        },
+        {
+            "key": "@datagrid-spin-icon-color",
+            "value": "rgba(255, 255, 255, 0.29)"
+        },
+        {
+            "key": "@SCHEDULER_APPOINTMENT_BASE_COLOR",
+            "value": "rgba(89, 133, 156, 1)"
+        },
+        {
+            "key": "@SCHEDULER_APPOINTMENT_TEXT_COLOR",
+            "value": "rgba(247, 247, 247, 1)"
+        },
+        {
+            "key": "@base-label-color",
+            "value": "rgba(143, 201, 255, 1)"
+        },
+        {
+            "key": "@list-group-color",
+            "value": "rgba(252, 252, 252, 0.4)"
+        }
+    ],
+    "baseTheme": "generic.dark.compact",
+    "outputColorScheme": "myls-blue-dark-compact",
+    "makeSwatch": false,
+    "version": "20.1.6",
+    "widgets": []
+}
