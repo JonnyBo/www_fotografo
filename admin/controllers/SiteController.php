@@ -447,15 +447,18 @@ class SiteController extends Controller
 
     public function actionLoadtranslate()
     {
-        $filename = dirname(__DIR__) . '/web/localization/' . $_SERVER['HTTP_HOST'] . '_translate.json';
+        //$filename = dirname(__DIR__) . '/web/localization/' . $_SERVER['HTTP_HOST'] . '_translate.json';
         $result = '';
+        /*
         if (file_exists($filename)) {
             if ($res = file_get_contents($filename))
                 $result = $res;
         }
+        */
         if (!$result) {
             $result = '{"en":{}, "ru":{}}';
         }
+
         return $result;
     }
 

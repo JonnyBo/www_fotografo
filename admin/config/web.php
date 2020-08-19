@@ -6,12 +6,12 @@ $datadb = require __DIR__ . '/datadb.php';
 $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
-    'vendorPath' => dirname(dirname(__DIR__)) . '/yii2-basic/vendor',
+    'vendorPath' => dirname(dirname(dirname(__DIR__))) . '/yii2-basic/vendor',
     //'bootstrap' => ['log'],
     'bootstrap' => ['AssetsMinify'],
     'aliases' => [
-        '@bower' => dirname(dirname(__DIR__)) . '/yii2-basic/vendor/bower-asset',
-        '@npm' => dirname(dirname(__DIR__)) . '/yii2-basic/vendor/npm-asset',
+        '@bower' => dirname(dirname(dirname(__DIR__))) . '/yii2-basic/vendor/bower-asset',
+        '@npm' => dirname(dirname(dirname(__DIR__))) . '/yii2-basic/vendor/npm-asset',
     ],
 
     'components' => [
@@ -95,7 +95,7 @@ $config = [
         ],
         'AssetsMinify' => [
             'class' => '\soladiem\autoMinify\AssetsMinify',
-            'enabled' => true,
+            'enabled' => false,
             'htmlCompress' => false,
             'cssFileBottom' => false,
             'jsFileCompress' => true,

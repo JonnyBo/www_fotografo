@@ -14,10 +14,10 @@ RewriteEngine on
 RewriteBase /
 
 ## Для работы в качестве админки
-RewriteRule ^site(.*)$ /admin/site$1 [QSA,L,R=301,NC]
-RewriteRule ^frame(.*)$ /admin/frame$1 [QSA,L,R=301,NC]
-RewriteRule ^menu(.*)$ /admin/menu$1 [QSA,L,R=301,NC]
-RewriteRule ^form(.*)$ /admin/form$1 [QSA,L,R=301,NC]
+#RewriteRule ^site(.*)$ /admin/site$1 [QSA,L,R=301,NC]
+#RewriteRule ^frame(.*)$ /admin/frame$1 [QSA,L,R=301,NC]
+#RewriteRule ^menu(.*)$ /admin/menu$1 [QSA,L,R=301,NC]
+#RewriteRule ^form(.*)$ /admin/form$1 [QSA,L,R=301,NC]
 #RewriteRule ^auth(.*)$ /admin/auth$1 [QSA,L,R=301,NC]
 
 ## !!!Для работы в качестве админки надо убрать
